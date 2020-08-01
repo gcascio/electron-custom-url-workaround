@@ -1,0 +1,18 @@
+{
+  "name": "electron-custom-url-workaround",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Giovanni Cascio <giova-@live.de>",
+  "homepage": "",
+  "main": "build/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.1.2",
+    "electron-builder": "^22.8.0"
+  }
+}

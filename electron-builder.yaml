@@ -1,0 +1,16 @@
+appId: electron-custom-url-workaround
+productName: electron-custom-url-workaround
+artifactName: "${productName}-${version}-${os}-${arch}.${ext}"
+afterAllArtifactBuild: "./build/afterAllArtifactBuild.js"
+asar: true
+
+files:
+- "./build/**/*"
+
+linux:
+  category: Network
+  description: example
+  target:
+  - target: AppImage
+    arch:
+    - x64
